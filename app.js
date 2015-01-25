@@ -9,7 +9,7 @@ app.configure(function () {  // app.configure  is deprocated in 4 *
 	app.use(express.bodyParser());
 	app.use(express.methodOverride());
 	app.use(app.router);
-	app.use(express.static(path.join(application_root, "public")));
+	app.use(express.static(path.join(application_root, "htmlFile"))); // this is used to server static file
 	app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
 
