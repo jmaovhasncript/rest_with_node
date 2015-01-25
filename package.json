@@ -1,0 +1,9 @@
+{
+	"name": "application-rest",
+	"version": "0.0.1",
+	"dependencies":{
+		"express": "3.2.x",
+		"body-parser":"*",
+		"mongoose": "~3.6.13"
+	}
+}
